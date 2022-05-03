@@ -16,15 +16,21 @@ for (let i = 1; i <= 100; i++) {
     
     // Per i multipli di 3 stampi “fizz” al posto del numero.
     if  (i % 3 == 0 && i % 5 == 0) {
+        console.log("fizzbuzz")
         element.classList.add("fizzbuzz");
+        
     }
 
     else if (i % 3 == 0) {
+        console.log("fizz")
         element.classList.add("fizz");
+        
     }
 
     else if (i % 5 == 0) {
+        console.log("buzz")
         element.classList.add("buzz");
+        
     } 
     
     else {
